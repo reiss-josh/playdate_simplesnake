@@ -1,0 +1,14 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `/d/GitRepos/PlaydateDev/jr_snake'
+rm -rf 'jr_snake.pdx'
+ 
+egrep: /home/Sci_Karate/.Playdate/config: No such file or directory
+
+"/bin/pdc" 'Source' 'jr_snake.pdx'
+ 
+egrep: /home/Sci_Karate/.Playdate/config: No such file or directory
+
+open -a '/bin/Playdate Simulator.app/Contents/MacOS/Playdate Simulator' 'jr_snake.pdx'
+ 
+make.exe: Leaving directory `/d/GitRepos/PlaydateDev/jr_snake'
+ 

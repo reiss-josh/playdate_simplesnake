@@ -1,0 +1,340 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i686-pc-msys
+ 
+make.exe: *** No rule to make target `all'.  Stop.
+
+
+# Make data base, printed on Fri Jul  1 18:24:07 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+ 
+# environment
+GTK_BASEPATH = C:\Program Files (x86)\GtkSharp\2.12\
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := /d/GitRepos/PlaydateDev/jr_snake
+# default
+SHELL := /bin/sh
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+ONEDRIVE = C:\Users\dash2\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = /tmp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PLAYDATE_SDK_PATH = C:\Users\dash2\Documents\PlaydateSDK
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-3a924a16-101a-4c32-a3db-e704f9727853-sock
+# environment
+VSCODE_CWD = D:\GitRepos\PlaydateDev\jr_snake
+# environment
+PATH = /c/Program Files/Common Files/Oracle/Java/javapath:/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/c/Program Files/Razer/ChromaBroadcast/bin:/c/Program Files/AdoptOpenJDK/jdk-11.0.6.10-hotspot/bin:/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/Program Files/Oculus/Support/oculus-runtime:/c/Program Files (x86)/Razer Chroma SDK/bin:/c/Program Files/Razer Chroma SDK/bin:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/c/WINDOWS/System32/OpenSSH/:/c/Program Files/PuTTY/:/c/Users/dash2/AppData/Local/Microsoft/WindowsApps:/c/Program Files/dotnet/:/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/c/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/:/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/c/Program Files/nodejs/:/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/c/Program Files (x86)/Yarn/bin/:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Program Files/Youtube-DL/ffmpeg/bin:/c/Program Files/Youtube-DL/avconv:/c/Program Files/Git/cmd:/mingw/bin/:/c/Program Files/CMake/bin/:/usr/bin/:/c/mingw_dev_lib/bin/:/c/Program Files (x86)/GtkSharp/2.12/bin:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/c/WINDOWS/System32/OpenSSH/:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/Users/dash2/Documents/PlaydateSDK/bin:/c/Users/dash2/AppData/Local/Programs/Python/Python37/Scripts/:/c/Users/dash2/AppData/Local/Programs/Python/Python37/:/c/Users/dash2/AppData/Local/Programs/Python/Python38-32/Scripts/:/c/Users/dash2/AppData/Local/Programs/Python/Python38-32/:/c/Users/dash2/AppData/Local/Microsoft/WindowsApps:/c/Users/dash2/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/dash2/AppData/Roaming/npm:/c/Users/dash2/AppData/Local/Yarn/bin:/c/Program Files/heroku/bin:/mingw/bin/:/usr/bin/:/c/mingw_dev_lib/bin/:/c/Program Files/CMake/bin/:.
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\dash2
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 16
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# makefile (from `makefile', line 6)
+SDK = $(shell egrep '^\s*SDKRoot' ~/.Playdate/config | head -n 1 | cut -c9-)
+# environment
+OCULUSBASE = C:\Program Files\Oculus\
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_37064_XXLTNULVMCENPBYI
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = KARA-III
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = Sci_Karate
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\dash2\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\KARA-III
+# environment
+ONEDRIVECONSUMER = C:\Users\dash2\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = KARA-III
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+!D: = d:\GitRepos\PlaydateDev\jr_snake
+# makefile (from `makefile', line 9)
+SIM = Playdate Simulator
+# default
+MAKE_VERSION := 3.81
+# makefile (from `makefile', line 8)
+GAME = $(notdir $(CURDIR))
+# makefile
+.DEFAULT_GOAL := build
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\dash2\AppData\Local
+# makefile (from `makefile', line 7)
+SDKBIN = $(SDK)/bin
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\b1d3ea3caab1dfe640e5ef6939b0f57c-1.68.1-main-sock
+# environment
+HOMEPATH = \
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\dash2\AppData\Roaming
+# environment
+TEMP = /tmp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# environment
+QUARTUS_ROOTDIR = C:\altera\13.1\qprogrammer
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 2100
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 25
+# environment
+TERM = cygwin
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 37064
+# environment
+USERDOMAIN_ROAMINGPROFILE = KARA-III
+# variable set hash-table stats:
+ 
+# Load=101/1024=10%, Rehash=0, Collisions=9/126=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 22624, inode 28247233): 6 files, no impossibilities.
+
+# 6 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: clean build run copy
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+copy:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Source/main.lua:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-04-23 04:03:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build: clean compile run
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+compile: Source/main.lua
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 20):
+	"$(SDKBIN)/pdc" 'Source' '$(GAME).pdx'
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run: open
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 17):
+	rm -rf '$(GAME).pdx'
+	
+
+open:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 23):
+	open -a '$(SDKBIN)/$(SIM).app/Contents/MacOS/$(SIM)' '$(GAME).pdx'
+	
+
+# files hash-table stats:
+# Load=12/1024=1%, Rehash=0, Collisions=0/35=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Fri Jul  1 18:24:07 2022
+
+ 

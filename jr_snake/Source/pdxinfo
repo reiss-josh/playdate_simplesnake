@@ -1,0 +1,7 @@
+name=jr_snake
+author=Josh Reiss
+description=Learning PlayDate via Snake
+bundleID=com.scik.Snake
+version=1.0
+buildNumber=100
+imagePath=SystemAssets
